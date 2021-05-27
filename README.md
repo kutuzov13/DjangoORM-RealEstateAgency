@@ -24,4 +24,4 @@ Available 3 variables:
 
 ## Target
 
-The code is written for educational purposes — this is a tutorial in the Python and web development course on the site [Devman](https://dvmn.org).
+The code is written for educational purposes — this is a tutorial in the Python and web development course on the site [Devman](https://dvmn.org/referrals/LKx4rvFOn7SwkzhVrznRuPRs6KUOF6jkJH2oImC2/).
