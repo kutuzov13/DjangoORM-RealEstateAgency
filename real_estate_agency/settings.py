@@ -25,9 +25,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    'phonenumber_field'
 
     'property.apps.PropertyConfig',
+    'phonenumber_field',
 ]
 
 MIDDLEWARE = [
@@ -93,6 +93,8 @@ THOUSAND_SEPARATOR = '&nbsp;'
 USE_TZ = True
 
 STATIC_URL = '/static/'
+
+PHONENUMBER_DEFAULT_REGION = 'RU'
 
 DATABASES = {
     'default': dj_database_url.parse(
