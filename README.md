@@ -12,7 +12,7 @@ The site is under construction, so only a page with a list of apartments and an 
 
 ## Environments Variables
 
-Some of the project settings are taken from the environment. To define them, create file `.env` with `manage.py` write data format: `ПЕРЕМЕННАЯ=значение`.
+Some of the project settings are taken from the environment. To define them, create file `.env` with `manage.py` write data format: `VARIABLE=value`.
 
 Available 3 variables:
 - `DEBUG` — debug-mode. 
