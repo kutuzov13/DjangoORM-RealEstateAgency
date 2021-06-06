@@ -3,6 +3,7 @@ from django.contrib import admin
 from .models import Flat
 
 
+@admin.register(Flat)
 class SearchFlat(admin.ModelAdmin):
     search_fields = ['town', 'address', 'owners_phonenumber', ]
     readonly_fields = ['created_at']
@@ -10,5 +11,3 @@ class SearchFlat(admin.ModelAdmin):
     list_editable = ('new_building',)
     list_filter = ['floor', 'rooms_number', 'has_balcony', 'new_building']
 
-
-admin.site.register(Flat, SearchFlat)
